@@ -40,7 +40,7 @@ const Contact = () => {
             <FaFacebookMessenger className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Noe Cossio</h5>
-            <a href='http://m.me/noe.cossio'>Send a message</a>
+            <a href='http://m.me/noe.cossio.7'>Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
