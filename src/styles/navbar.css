@@ -2,13 +2,13 @@ nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0.8rem 0.8rem;
     z-index: 2;
     position: fixed;
-    left: 90%;
+    left: 30%;
     /* transform: translateX(-50%); */
-    bottom: 8rem;
+    bottom: 4rem;
     gap: 4rem;
     border-radius: 3rem;
     backdrop-filter: blur(2px);
