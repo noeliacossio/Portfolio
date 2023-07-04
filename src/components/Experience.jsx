@@ -12,7 +12,7 @@ import {SiExpress} from 'react-icons/si'
 import {SiPostgresql} from 'react-icons/si'
 import {SiSequelize} from 'react-icons/si'
 import {SiMysql} from 'react-icons/si'
-
+import {SiMongodb} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -104,6 +104,13 @@ const Experience = () => {
             <div>
             <h4>MySQL</h4>
             <small className='text-light'>Intermediate</small> 
+            </div>
+          </article>
+          <article className='experience__details'>
+            <SiMongodb className='experience__details-icon' />
+            <div>
+            <h4>MongoDB</h4>
+            <small className='text-light'>Experienced</small> 
             </div>
           </article>
         </div>

@@ -3,6 +3,7 @@ import '../styles/portfolio.css'
 import Image1 from '../assets/TheMovieDB.jpg'
 import Image2 from '../assets/ecommerce.png'
 import Image3 from '../assets/Tonic3_RGB.jpg'
+import Image4 from '../assets/miTurnoWebApp.png'
 
 const Portfolio = () => {
   return (
@@ -40,6 +41,17 @@ const Portfolio = () => {
         <div className="portfolio__item-cta">
         <a href='https://github.com/noeliacossio/tonic3-api' className='btn'>Github</a>
          <a href='https://www.loom.com/share/a063d7b963fc489d86675fe1ef26efef' className='btn btn-primary'>Video Demo</a> 
+        </div>
+        </article>
+
+        <article className='portfolio__item'>
+        <div className="portfolio__item-img">
+          <img src={Image4} alt='MiTurnoWebApp'/>
+        </div>
+        <h3>Portfolio Item: Mi Turno Web App</h3>
+        <div className="portfolio__item-cta">
+        <a href='https://github.com/noeliacossio/Mi-Turno-Webapp-Front' className='btn'>Github</a>
+         
         </div>
         </article>
       </div>
