@@ -6,7 +6,7 @@ import {SiCss3} from 'react-icons/si'
 import {SiJavascript} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
 import {SiRedux} from 'react-icons/si'
-import {SiAngular} from 'react-icons/si'
+import {SiTypescript} from 'react-icons/si'
 import {GrNode} from 'react-icons/gr'
 import {SiExpress} from 'react-icons/si'
 import {SiPostgresql} from 'react-icons/si'
@@ -59,9 +59,9 @@ const Experience = () => {
             </div>
           </article>
           <article className='experience__details'>
-            <SiAngular className='experience__details-icon' />
+            <SiTypescript className='experience__details-icon' />
             <div>
-            <h4>Angular</h4>
+            <h4>Typescript</h4>
             <small className='text-light'>Intermediate</small> 
             </div>
           </article>
